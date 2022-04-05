@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,600&family=Rubik+Microbe&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Poppins:ital,wght@0,400;1,400;1,600&family=Rubik+Microbe&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Grape+Nuts&family=Poppins:ital,wght@0,400;1,400;1,600&family=Rubik+Microbe&family=Rubik:wght@700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .content{
+        color: crimson;
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+    }
+    .container{
+        background-image: url(img/pexels-huy-phan-1422384.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 100px;
+        height: 100vh;
+        width: 100%;
+    }
+    li, a, button{
+        font-weight: 500;
+        font-size: 16px;
+        color: beige;
+        text-decoration: none;
+    }
+
+    .nav-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background: rgba(0, 0, 0, 0.212);
+    }
+
+    .nav-items ul{
+        list-style-type: none;
+    }
+    .nav-items ul li{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .nav-items ul li a{
+        transition: all 0.5s ease 0s;
+    }
+    .nav-items ul li a:hover{
+        color: rgb(129, 5, 30);
+        background-color: white;
+    }
+
+    .logo{
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .logo span{
+        color: crimson;
+    }
+
+    button{
+        padding: 9px 25px;
+        background-color:maroon;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition:all 0.5s ease 0s ;
+        font-family: 'Rubik Microbe', cursive;
+    }
+    button:hover{
+        background-color: rgba(128, 0, 0, 0.562);
+    }
+    h1{
+        font-family: 'Rubik Microbe', cursive;
+        text-transform: uppercase;
+        top: 50%;
+        font-size: 80px;
+    }
+    h4{
+        font-family: 'Grape Nuts', cursive;
+        color: rgb(250, 121, 121);
+        font-size: 60px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-items">
+                <h3 class="logo">Best<span>Chefs</span></h3>
+                <ul nav-links>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">EXPLORE</a></li>
+                </ul>
+                <a href="#" class="cta"><button>Contact</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1 class="header">food is king</h1>
+        <h4>get the best</h4>
+        <button>Explore</button>
+    </div>
+
+    
+</body>
+</html>
